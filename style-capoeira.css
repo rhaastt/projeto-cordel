@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+   --fonte1: verdana, geneva, tahoma, sans-serif;
+   --fonte2: 'Passion One', cursive;
+   --fonte3: 'Sriracha', cursive;
+}
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+html, body {
+   min-height: 100vh;
+   background-color: darkgray;
+   font-family: var(--fonte1);
+}
+
+ header {
+    padding: 3px;
+    background-color: black;
+    color: white;
+ }
+
+ header > h1 {
+   text-align: center;
+   padding-top: 50px;
+   font-size: 10vw;
+   font-family: var(--fonte2);
+ }
+ header > h2 {
+   text-align: center;
+   font-size: 10vw;
+   font-family: var(--fonte2);
+ }
+
+ header p {
+    text-align: center;
+ }
+
+
+ section {
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   padding-left: 30px ;
+   line-height: 2em;
+   font-size: 2.5vw;
+   text-align: justify;
+   font-family: var(--fonte3);
+   
+ }
+section p {   
+   padding-bottom: 2em ; 
+}
+
+section.normal {
+   background-color: white;
+   color: black;
+}
+
+section.imagem {
+   background-color: rgb(46, 46, 46);
+   color: white;
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+   background-position: left center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+section.imagem p {
+   display: inline-block;
+   padding: 5px;
+   background-color: rgba(0, 0, 0, 0.555);
+   text-shadow: 1px 1px 0px black;
+   border-radius: 10px; 
+}
+
+section#img01 {
+   background-image: url(https://www.revistaprosaversoearte.com/content/uploads/2019/12/Negros-Lutando-de-August-Earle-1824-%C3%A9-considerada-a-primeira-refer%C3%AAncia-iconogr%C3%A1fica-da-pr%C3%A1tica-no-Brasil-2.jpg);
+}
+
+section#img02 {
+   background-image: url(https://www.revistaprosaversoearte.com/content/uploads/2019/12/Roda-de-Capoeira-de-Johann-Moritz-Rugendas-1835-2-696x464.jpg);  
+}
+
+footer {
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
